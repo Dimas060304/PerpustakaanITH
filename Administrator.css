@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #65c3a3;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .menu-section {
+    margin-bottom: 20px;
+}
+
+.sidebar .menu-section h2 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebar .menu-section a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.sidebar .menu-section a:hover {
+    background-color: #4aa683;
+}
+
+.sidebar .menu-section a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.topbar {
+    margin-left: 250px;
+    background-color: #d9f2eb;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topbar .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d5542;
+}
+
+.topbar .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar .profile span {
+    font-size: 16px;
+    color: #2d5542;
+}
+
+.topbar .profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.content .button-group .button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #2d5542;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #2d5542;
+}
+
+.content .button-group .button:hover {
+    background-color: #eafaf1;
+}
+
+.content .button-group .button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

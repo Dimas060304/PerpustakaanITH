@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('BackgroundLogin.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #80CBC4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00695C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #004D40;
+}
+
+.footer {
+    position: fixed; /* Agar tetap berada di bawah meskipun halaman di-scroll */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    background-color: rgba(128, 203, 196, 0.8); /* Warna latar belakang dengan transparansi */
+    padding: 10px 0; /* Tambahkan padding untuk jarak vertikal */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sedikit bayangan di atas footer */
+}
+

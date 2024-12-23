@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2c9c87;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2, .sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background-color: #2c9c87;
+    color: white;
+    border: 2px solid #006d5b;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-add:hover {
+    background-color: #006d5b;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+}
+
+.btn-search {
+    padding: 8px;
+    background-color: #2c9c87;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #2c9c87;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cover {
+    width: 50px;
+    height: auto;
+}
+
+.empty-row {
+    background-color: #e0e0e0;
+    height: 40px;
+}
+
+.btn-edit, .btn-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-edit img, .btn-delete img {
+    width: 20px;
+    height: 20px;
+}
